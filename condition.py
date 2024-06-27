@@ -4,7 +4,6 @@ salary = input("Please enter your salary  : ")
 if salary.isdigit():
    salary = int(salary)
 # condition based on logic
-
 if salary < 25000:
    print(f"You are L1 and your current salary is : {salary}")
 elif salary < 50000 and  salary > 25000:
